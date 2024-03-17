@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 762px;
+  border: 2px solid black;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.email {
+  display: flex;
+  width: 600px;
+  height: 300px;
+  background-image: url("./photos/Background-Image.png");
+  background-size: cover;
+}
+
+.email__title {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 85px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 55px 55px 0 30px;
+}
+
+.message__greeting {
+  color: #3c3b3bea;
+  font-weight: 700;
+  margin: 0;
+}
+
+.message__email-message {
+  color: #595959;
+  padding: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-left: 85px;
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+
+.list__icon {
+  padding-left: 30px;
+  color: #000;
+}
+
+.list__text {
+  color: #595959d5;
+  font-weight: 400;
+}
+
+.message__button {
+  display: flex;
+  width: 210px;
+  height: 40px;
+  font-weight: 700;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}

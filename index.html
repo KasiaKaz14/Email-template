@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alatsi&family=Anybody:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Email</title>
+  </head>
+  <body>
+    <header>
+      <section class="email">
+        <h1 class="email__title">GoEmail</h1>
+      </section>
+    </header>
+    <main>
+      <section class="message">
+        <h3 id="greeting" class="message__greeting"></h3>
+        <p class="message__email-message">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </section>
+      <ul class="list">
+        <li>
+          <div>
+            <svg class="list__icon" width="45" height="50">
+              <use href="./sprite.svg#icon-clock-regular"></use>
+            </svg>
+            <p class="list__text">Lorem Ipsum</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <svg class="list__icon" width="45" height="50">
+              <use href="./sprite.svg#icon-hand-point-up-regular"></use>
+            </svg>
+            <p class="list__text">Lorem Ipsum</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <svg class="list__icon" width="45" height="50">
+              <use href="./sprite.svg#icon-folder-closed-regular"></use>
+            </svg>
+            <p class="list__text">Lorem Ipsum</p>
+          </div>
+        </li>
+      </ul>
+      <button class="message__button">Click here to open</button>
+    </main>
+    <script src="./email.js"></script>
+  </body>
+</html>
