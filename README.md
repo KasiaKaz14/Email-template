@@ -13,4 +13,4 @@ This is a simple project created using HTML, CSS and JavaScript. It contains a r
 
 The project was created by **_KasiaKaz14_** *https://github.com/KasiaKaz14?tab=repositories*
 
-**Technologies used:** [HTML] [CSS] [JavaScript]. There are also some [pics] and [svg icons].
+**Technologies used:** [HTML], [CSS], [JavaScript]. There are also some [pics] and [svg icons].
