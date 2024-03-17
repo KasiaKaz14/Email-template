@@ -11,6 +11,6 @@ This is a simple project created using HTML, CSS and JavaScript. It contains a r
 
 ## Additional Information, Technologies
 
-The project was created by [KasiaKaz14][https://github.com/KasiaKaz14?tab=repositories]
+The project was created by **_KasiaKaz14_** *https://github.com/KasiaKaz14?tab=repositories*
 
-**Technologies used:** [HTML], [CSS], [JavaScript]. There are also some [pics] and [svg icons].
+**Technologies used:** [HTML] [CSS] [JavaScript]. There are also some [pics] and [svg icons].
